@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="https://kit.fontawesome.com/d5f22ee4f8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="ta-container">
+            
+            <div class="heading">
+                <h1>Todo App</h1>
+            </div>
+
+            <div class="ta-wrapper">
+                <div class="input-wrapper">
+                    <input type="text" id="todo-input" placeholder="Enter a task...">
+                    <button id="submit">Add</button>  <!-- ✅ Fixed ID (Matches script.js) -->
+                </div>
+
+                <div class="todo-lists">
+                    <!-- Tasks will be dynamically added here -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="todo.js" defer></script>  <!-- ✅ Added defer to ensure script loads after HTML -->
+</body>
+</html>
+
